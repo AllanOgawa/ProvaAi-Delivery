@@ -1,64 +1,45 @@
 .data
-	espacos: .asciiz "\n"
-	
-	menu: .asciiz "MENU"
-	addcli: .asciiz "ADICIONAR CLIENTE"
-	addmot: .asciiz "ADICIONAR ENTREGADOR"
-	addloj: .asciiz "ADICIONAR LOJA"
-	opcli: .asciiz "1 - Adicionar Cliente "
-	opmoto: .asciiz "2 - Adicionar Entregador "
-	oploja: .asciiz "3 - Adicionar Loja "
-	opcao: .asciiz "Opcao: "
-	
-	cpfs: .asciiz "CPF: "
-	cpf: .space 50
-	
+	espacos:   .asciiz "\n"
+	menu:      .asciiz "MENU"
+	addcli:    .asciiz "ADICIONAR CLIENTE"
+	addmot:    .asciiz "ADICIONAR ENTREGADOR"
+	addloj:    .asciiz "ADICIONAR LOJA"
+	opcli:     .asciiz "1 - Adicionar Cliente "
+	opmoto:    .asciiz "2 - Adicionar Entregador "
+	oploja:    .asciiz "3 - Adicionar Loja "
+	opcao:     .asciiz "Opcao: "
+	cpfs:      .asciiz "CPF: "
 	telefones: .asciiz "TELEFONE: "
+	titular:   .asciiz "TITULAR DA LOJA: "
+	nomes:     .asciiz "NOME: "
+	cnpjs:     .asciiz "CNPJ: "
+	lojas:     .asciiz "NOME DA LOJA: "
+	ceps:      .asciiz "CEP: "
+	cidades:   .asciiz "CIDADE: "
+	estados:   .asciiz "ESTADO: "
+	ruas:      .asciiz "ENDEREÇO: "
+	cnhs:      .asciiz "CNH: "
+	veiculos:  .asciiz "VEICULO: "
+	anos:      .asciiz "ANO: "
+	placas:    .asciiz "PLACA: "
+	renavams:  .asciiz "RENAVAM DO VEICULO: "
+	
+	cpf:      .space 50
 	telefone: .space 50
-	
-	titular: .asciiz "TITULAR DA LOJA: "
-	nomes: .asciiz "NOME: "
-	nome: .space 50
-	
-	
-	cnpjs: .asciiz "CNPJ: "
-	cnpj: .space 50
-	
-	lojas: .asciiz "NOME DA LOJA: "
-	loja: .space 50
-	
-	
-	ceps: .asciiz "CEP: "
-	cep: .space 50
-	
-	cidades: .asciiz "CIDADE: "
-	cidade: .space 50
-	
-	estados: .asciiz "ESTADO: "
-	estado: .space 50
-	
-	ruas: .asciiz "ENDEREÇO: "
-	rua: .space 50
-	
-	
-	cnhs: .asciiz "CNH: "
-	cnh: .space 50
-	
-	veiculos: .asciiz "VEICULO: "
-	veiculo: .space 50
-	
-	anos: .asciiz "ANO: "
-	ano: .space 50
-	
-	placas: .asciiz "PLACA: "
-	placa: .space 10
-	
-	renavams: .asciiz "RENAVAM DO VEICULO: "
-	renavam: .space 50
-	
+	nome:     .space 50
+	cnpj:     .space 50
+	loja:     .space 50
+	cep:      .space 50
+	cidade:   .space 50
+	estado:   .space 50
+	rua:      .space 50
+	cnh:      .space 50
+	veiculo:  .space 50
+	ano:      .space 50
+	placa:    .space 50
+	renavam:  .space 50
 	
 .text
-
 	#printa o menu
 	li $v0,4
 	la $a0,menu
