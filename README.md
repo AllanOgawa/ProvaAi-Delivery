@@ -5,7 +5,7 @@ Trabalho Semestral do Curso de Engenharia de Software 3°Semestre - UNICESUMAR
 
 Projeto: ProvaAi! Delivery
 
-### Alunos: ALLAN OGAWA | HEITOR BRANDOLIN | JOÃO VICTOR LUZ RAHUAM | RODRIGO BRANCO NASCIMENTO
+### ALLAN OGAWA | HEITOR BRANDOLIN | JOÃO VICTOR LUZ RAHUAM | RODRIGO BRANCO NASCIMENTO
 ## Informações:
 
 ProvaAi! Delivery é um aplicativo de entrega de roupas onde o usuário cliente pode encomendar roupas e durante um periodo de tempo, ele pode prová-las e decidir         se quer comprar a roupa ou devolvê-las para a loja.
